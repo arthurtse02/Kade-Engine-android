@@ -110,7 +110,7 @@ class TitleState extends MusicBeatState
 			if (StoryMenuState.weekUnlocked.length < 4)
 				StoryMenuState.weekUnlocked.insert(0, true);
 
-			// QUICK PATCH OOPS!
+			// QUICK PATCH OOPS
 			if (!StoryMenuState.weekUnlocked[0])
 				StoryMenuState.weekUnlocked[0] = true;
 		}
